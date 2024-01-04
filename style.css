@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500;700&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  animation: colorTransition 10s ease infinite;
+}
+
+@keyframes colorTransition {
+  0% {
+    background-color: lightcoral;
+  }
+  50% {
+    background-color: aquamarine;
+  }
+  100% {
+    background-color: lightpink;
+  }
+}
+
+.main-container {
+  padding: 60px 0px;
+  border-radius: 20px;
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.757);
+}
+
+.hearts-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-heart {
+  margin-right: 10px;
+  font-size: 3rem;
+  color: rgb(255, 23, 23);
+}
+
+.random-number-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.random-number-first-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#losing-streak {
+  display: inline;
+  font-size: 4rem;
+  padding: 0px 40px;
+  background-color: lightcoral;
+  border-radius: 6px 0px 0px 6px;
+  margin-right: 10px;
+}
+
+#random-number {
+  display: inline;
+  font-size: 6rem;
+  margin: 0px;
+  background-color: rgb(227, 227, 227);
+  padding: 0px 50px;
+  border-radius: 6px;
+}
+
+#winning-streak {
+  display: inline;
+  font-size: 4rem;
+  padding: 0px 40px;
+  background-color: lightgreen;
+  border-radius: 0px 6px 6px 0px;
+  margin-left: 10px;
+}
+
+.higher-lower {
+  display: inline;
+  display: block;
+}
+
+.guess-container {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#guess-input {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  font-size: 3rem;
+  width: 150px;
+  padding: 15px 30px;
+  border-radius: 6px 0px 0px 6px;
+  font-weight: 600;
+}
+
+#guess-btn {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  font-size: 1rem;
+  color: white;
+  padding: 0px 15px;
+}
+
+#play-again {
+  cursor: pointer;
+  border: none;
+  background-color: lightgreen;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  border-radius: 0px 6px 6px 0px;
+  padding: 0px 15px;
+}
