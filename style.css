@@ -50,6 +50,19 @@ body {
   align-items: center;
 }
 
+.losing-streak-container p {
+  color: white;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.winning-streak-container p {
+  color: white;
+  margin: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
 #losing-streak {
   display: inline;
   font-size: 4rem;
@@ -77,8 +90,9 @@ body {
   margin-left: 10px;
 }
 
-.higher-lower {
-  display: inline;
+#higher-lower {
+  font-size: 1.4rem;
+  color: white;
   display: block;
 }
 
